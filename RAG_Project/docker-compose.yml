@@ -1,0 +1,21 @@
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+
+  app:
+    build:
+      context: ./app
+    volumes:
+      - ./app:/app
+    working_dir: /app
+    command: python3 test_mongodb.py
+    depends_on:
+      - mongodb
+
+volumes:
+  mongodb_data:
