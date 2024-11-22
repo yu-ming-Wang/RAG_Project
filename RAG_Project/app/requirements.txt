@@ -2,4 +2,6 @@ torch
 pymongo
 requests
 clearml
-google-api-python-client
+tensorflow
+transformers
+qdrant-client

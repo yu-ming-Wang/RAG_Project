@@ -1,4 +1,6 @@
 services:
+  #pull完成後，Docker Compose 會基於該映像啟動容器，執行 MongoDB 的默認啟動邏輯。
+  
   mongodb:
     image: mongo:latest
     container_name: mongodb
@@ -6,16 +8,96 @@ services:
       - "27017:27017"
     volumes:
       - mongodb_data:/data/db
+  
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: qdrant
+    ports:
+      - "6333:6333"
 
-  app:
-    build:
-      context: ./app
-    volumes:
-      - ./app:/app
-    working_dir: /app
-    command: python3 test_mongodb.py
+  apiserver:
+    image: allegroai/clearml:latest
+    container_name: clearml-apiserver
+    environment:
+      - CLEARML_SERVER_TYPE=apiserver
+    ports:
+      - "8008:8008"  # API server
     depends_on:
       - mongodb
 
+  webserver:
+    image: allegroai/clearml:latest
+    container_name: clearml-webserver
+    environment:
+      - CLEARML_SERVER_TYPE=webserver
+    ports:
+      - "8080:8080"  # Web interface
+    depends_on:
+      - apiserver
+
+  fileserver:
+    image: allegroai/clearml:latest
+    container_name: clearml-fileserver
+    environment:
+      - CLEARML_SERVER_TYPE=fileserver
+    ports:
+      - "8081:8081"  # Files server
+    depends_on:
+      - apiserver
+  
+  app:
+    build:
+      context: ./app
+    container_name: rag_app
+    depends_on:
+      - mongodb
+      - qdrant
+
 volumes:
   mongodb_data:
+
+
+# 在 docker-compose.yml 中，以下配置：
+# app:
+#   build:
+#     context: ./app
+# 的作用是告訴 Docker Compose 如何構建 app 服務的鏡像。
+
+# app:
+# 定義服務名稱為 app，這是 docker-compose.yml 中的服務標識符。
+
+# build:
+# 表示 Docker Compose 需要構建該服務的 Docker 映像（image）。
+# 而不是直接使用已有的映像（比如 image: python:3.9）。
+
+# context: ./app
+# 指定構建 Docker 映像的 上下文路徑（build context）。
+# 在這裡，./app 表示構建上下文是 docker-compose.yml 文件所在目錄下的 app 子目錄。
+# Docker 會將該目錄下的所有文件發送到 Docker 引擎，作為映像構建的上下文。
+# context 的作用
+# Docker 在構建映像時，會將 context 指定的目錄作為工作區域。
+# 它會把這個目錄的內容打包並傳遞給 Docker 引擎。
+# Dockerfile 及構建所需的文件（如應用代碼和依賴）應位於該目錄內。
+# 示例：目錄結構
+# 假設你的項目目錄如下：
+# project/
+# ├── docker-compose.yml
+# ├── app/
+# │   ├── Dockerfile
+# │   ├── main.py
+# │   ├── requirements.txt
+# │   └── other_app_files...
+# 在 docker-compose.yml 中指定 context: ./app，Docker 引擎會使用 app/ 資料夾作為構建的上下文。
+
+# 完整構建流程
+# Docker Compose 遇到 build: 指令後，會查看 context 的路徑。
+# 將 context 指定的目錄內容（./app）傳遞給 Docker 引擎。
+# 在 ./app 路徑下尋找 Dockerfile，並按文件中的指令構建映像。
+
+# ClearML 映像的用途
+# ClearML 的映像包含了用於啟動其核心後端服務的完整環境，包括：
+
+# Web Server (8080): ClearML 的用戶界面。
+# API Server (8008): 用於與 ClearML 客戶端交互。
+# File Server (8081): 用於存儲和管理任務相關的文件。
+# 這些服務被打包在一個 Docker 容器中運行。
