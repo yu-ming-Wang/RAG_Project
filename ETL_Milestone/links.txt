@@ -1,0 +1,58 @@
+Github Links(4 domain):
+
+links = [ "https://github.com/ros-infrastructure/www.ros.org", 
+          "https://github.com/ros-navigation/docs.nav2.org",
+          "https://github.com/moveit/moveit2",
+          "https://github.com/gazebosim/docs"
+]
+
+---
+
+Medium Article Links(10 articles for 4 domain):
+
+links = [ "https://medium.com/schmiedeone/getting-started-with-ros2-part-1-d4c3b7335c71",
+          "https://medium.com/@santoshbalaji/manipulation-with-moveit2-visualizing-robot-arm-in-simulation-1-8cd3a46d42b4",
+          "https://medium.com/@CanyonLakeRobotics/tuning-the-ros2-nav2-stack-5b01f455e217",
+          "https://medium.com/creating-a-gazebo-simulation-with-ros2-for-your/introduction-8daf6efa12f4",
+          "https://medium.com/@arshad.mehmood/a-guide-to-multi-robot-navigation-utilizing-turtlebot3-and-nav2-cd24f96d19c6",
+          "https://medium.com/@arshad.mehmood/ros2-gazebo-world-map-generator-a103b510a7e5",
+          "https://medium.com/@kabilankb2003/exploring-nvidia-carter-robot-in-ros2-navigation-with-isaac-sim-and-action-graph-8186a1398361",
+          "https://medium.com/geekculture/reinforcement-learning-path-planner-for-6dof-robot-in-ros2-518581dc72c7",
+          "https://medium.com/@thehummingbird/building-a-ros2-project-part-1-a2c02d6ac3d8",
+          "https://medium.com/schmiedeone/getting-started-with-ros2-part-1-d4c3b7335c71"
+]
+
+---
+
+Youtube Links(15 video for 4 domain):
+
+links = [ "https://www.youtube.com/watch?v=Gg25GfA456o&t=4s",
+          "https://www.youtube.com/watch?v=gPjoFJBKXf0",
+          "https://www.youtube.com/watch?v=idQb2pB-h2Q&t=107s",
+          "https://www.youtube.com/watch?v=uDpOx21bpy4&list=PLNw2RD-1J5YYvFGiMafRD_axHrBUGvuIg&index=2",
+          "https://www.youtube.com/watch?v=c5DRTN2b2kY&list=PLLSegLrePWgJudpPUof4-nVFHGkB62Izy&index=2",
+          "https://www.youtube.com/watch?v=wfCuPQ_6VbI&list=PLLSegLrePWgJudpPUof4-nVFHGkB62Izy&index=5",
+          "https://www.youtube.com/watch?v=I08lO_SRBbk&list=PLeEzO_sX5H6TBD6EMGgV-qdhzxPY19m12&index=5",
+          "https://www.youtube.com/watch?v=NY7f76m6xAM&list=PLeEzO_sX5H6TBD6EMGgV-qdhzxPY19m12&index=10",
+          "https://www.youtube.com/watch?v=qNLRmIWN9UY&list=PLeEzO_sX5H6TBD6EMGgV-qdhzxPY19m12&index=17",
+          "https://www.youtube.com/watch?v=vaxNA98j0LQ&list=PL_mVJjYrX25ehO_bq1VdmlUtibplAIzGG&index=13",
+          "https://www.youtube.com/watch?v=Uz_i_sjVhIM&list=PL_mVJjYrX25ehO_bq1VdmlUtibplAIzGG&index=5",
+          "https://www.youtube.com/watch?v=Ug-1wr7FZlY&list=PLNw2RD-1J5YYvFGiMafRD_axHrBUGvuIg&index=4",
+          "https://www.youtube.com/watch?v=wRP8icmBzVk&list=PLNw2RD-1J5YYvFGiMafRD_axHrBUGvuIg&index=5",
+          "https://www.youtube.com/watch?v=AK1Febgqkec&list=PLNw2RD-1J5YYvFGiMafRD_axHrBUGvuIg&index=7",
+          "https://www.youtube.com/watch?v=WcFyGPEfhHc&list=PL6FI-gIL5jiEd4Hv-NIAuO2Cbbs27UpAM&index=2"
+]
+
+
+database collections:
+YouTube
+Medium
+Github
+
+
+
+
+
+
+
+
