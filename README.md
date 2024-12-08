@@ -4,7 +4,7 @@ Group Member: Yuming Wang, Mingyi Peng
 
 GitHub Name: yu-ming-Wang, Liam M.Y. Peng
 
-HuggingFace: Yu-Ming Wang, 
+HuggingFace: domainame, 
 
 **Date of Submission:** 2024/12/8
 
@@ -16,11 +16,12 @@ To run any notebook associated with this assignment, we run it in our local envi
 
 ## Environment and Tooling Milestone
 ---
-1. **Write docker-compose file:** .
+1. **Write docker-compose file:** Include Clearml, MongoDB, qdrant, and build our API.
 2. **Connect with clearml:**  Successful.
 3. **Connect with Mongodb:** Successful.
 4. **Connect with qdrant:** Successful.
-5. **Screenshot:**
+5. **Run our API** Still Adjusting (All our pipelines can run separately in our local host)
+6. **Screenshot:** A screenshot showing all docker containers running.
 
 ---
 
