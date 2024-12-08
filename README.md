@@ -36,6 +36,7 @@ To run any notebook associated with this assignment, we run in our local environ
 2. **Clean and Chunk:** Clean can chunk decompressed text for a later application.
 3. **Generate embedding:** Use Smollm 135m tokenizer and model to generate embedding.
 4. **Store in qdrant:** Store embedding vector for later similarity search.
+5. **Demonstrate:** Use our Medium articles collection from our database for example. 
 
 ---
 
