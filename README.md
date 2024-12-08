@@ -4,7 +4,7 @@ Group Member: Yuming Wang, Mingyi Peng
 
 GitHub Name: yu-ming-Wang, Liam M.Y. Peng
 
-HuggingFace: 
+HuggingFace: Yu-Ming Wang, 
 
 **Date of Submission:** 2024/12/8
 
@@ -13,12 +13,15 @@ To run any notebook associated with this assignment, we run it in our local envi
 
 ---
 # Project Report
+
 ## Environment and Tooling Milestone
 ---
-1. **:** .
-2. **:** .
-3. **:** .
-4. **:** .  
+1. **Write docker-compose file:** .
+2. **Connect with clearml:**  Successful.
+3. **Connect with Mongodb:** Successful.
+4. **Connect with qdrant:** Successful.
+5. **Screenshot:**
+
 ---
 
 ## ETL Milestone
