@@ -22,7 +22,7 @@ To run any notebook associated with this assignment, we run in our local environ
 ---
 
 ## ETL Milestone
-1. **Pipeline:** 1. Extract data 2. Transform data 3. Load data
+1. **Pipeline:** 1. Extract data 2. Transform data 3. Load data (stored in Mongodb)
 2. **GitHub Repo Crawler:** 4 Repository.
 3. **Medium Article Crawler:** 10 Articles.
 4. **Youtube Video Crawler:** 15 videos.
@@ -32,10 +32,10 @@ To run any notebook associated with this assignment, we run in our local environ
 
 ## Featurization Pipelines Milestone
 ---
-1. **:** 
-2. **:** 
-3. **:** 
-4. **:** 
+1. **Fetch and decompress data:** Decompress data from MongoDB
+2. **Clean and Chunk:** Clean can chunk decompressed text for a later application.
+3. **Generate embedding:** Use Smollm 135m tokenizer and model to generate embedding.
+4. **Store in qdrant:** Store embedding vector for later similarity search.
 
 ---
 
