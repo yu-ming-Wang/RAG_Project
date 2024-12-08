@@ -1,7 +1,10 @@
 # Final Project RAG system
+
 Group Member: Yuming Wang, Mingyi Peng
-GitHub Name: yu-ming-Wang, 
-Hugging
+
+GitHub Name: yu-ming-Wang, Liam M.Y. Peng
+
+HuggingFace: 
 
 **Date of Submission:** 2024/12/8
 
@@ -18,7 +21,7 @@ To run any notebook associated with this assignment, we run in our local environ
 4. **:** .  
 ---
 
-## ETL Milstone
+## ETL Milestone
 1. **:**
 2. **:**
 3. **:** 
@@ -41,7 +44,7 @@ To run any notebook associated with this assignment, we run in our local environ
 4. **:**
 ---
 
-##  Milestone
+## Deploying the App Milestone
 ---
 1. **Ollema setup:** 
 2. **Webui setup:** 
