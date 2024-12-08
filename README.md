@@ -9,7 +9,7 @@ HuggingFace:
 **Date of Submission:** 2024/12/8
 
 ## Instructions on Running the Notebook
-To run any notebook associated with this assignment, we run in our local environment.
+To run any notebook associated with this assignment, we run it in our local environment.
 
 ---
 # Project Report
