@@ -22,9 +22,10 @@ To run any notebook associated with this assignment, we run in our local environ
 ---
 
 ## ETL Milestone
-1. **:**
-2. **:**
-3. **:** 
+1. **GitHub Repo Crawler:** 4 Repository.
+2. **Medium Article Crawler:** 10 Articles.
+3. **Youtube Video Crawler:** 15 videos.
+4. **Links:** All source Links.
 ---
 
 ## Featurization Pipelines Milestone
