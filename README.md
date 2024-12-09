@@ -27,11 +27,11 @@ To run any notebook associated with this assignment, we run it in our local envi
 
 ## ETL Milestone
 1. **Pipeline:** 1. Extract data 2. Transform data 3. Load data (stored in Mongodb)
-2. **GitHub Repo Crawler:** We crawl 4 Repository.
-3. **Medium Article Crawler:** We crawl 10 Articles.
-4. **Youtube Video Crawler:** We crawl 15 videos.
-5. **Links:** All source Links.
-6. **Demonstrate:** For Every crawler, we demonstrate one example. Download the notebook file to see the demonstrated result.
+2. **GitHub Repo Crawler:** We crawl 4 Repository.   (etl_github.py)
+3. **Medium Article Crawler:** We crawl 10 Articles. (etl_medium.py)
+4. **Youtube Video Crawler:** We crawl 15 videos. (etl_youtube.py)
+5. **Links:** All source Links. (links)
+6. **Demonstrate:** For Every crawler, we demonstrate one example. Download the notebook file to see the demonstrated result. (etl_demonstrate.ipynb)
 ---
 
 ## Featurization Pipelines Milestone
@@ -40,12 +40,12 @@ To run any notebook associated with this assignment, we run it in our local envi
 2. **Clean and Chunk:** Clean can chunk decompressed text for a later application.
 3. **Generate embedding:** Use Smollm 135m tokenizer and model to generate embedding.
 4. **Store in qdrant:** Store embedding vector for later similarity search.
-5. **Demonstrate:** Use our Medium articles collection from our database for example. 
+5. **Demonstrate:** Use our Medium articles collection from our database for example. (featurization_demonstrate.ipynb)
 ---
 
-## Finetuning Milestone
+## Finetuning Milestone  
 ---
-1. **First iteration generates answer:**
+1. **First iteration generates answer:** (retrievepipline_smollm135.py, First_iteration_demonstrate.ipynb)
    1. We take the User input to generate embeddings. 
    2. Similarity search from our qdrant collections. 
    3. Generate prompt with user input text and retrieved chunk.
