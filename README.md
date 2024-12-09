@@ -44,13 +44,18 @@ To run any notebook associated with this assignment, we run it in our local envi
 
 ## Finetuning Milestone  
 ---
+The model used is [SmolLM-135M](https://huggingface.co/HuggingFaceTB/SmolLM-135M).
 1. **First iteration generates answer:** (retrievepipline_smollm135.py, First_iteration_demonstrate.ipynb)
    1. We take the User input to generate embeddings. 
    2. Similarity search from our qdrant collections. 
    3. Generate prompt with user input text and retrieved chunk.
    4. Pass through our LLM Smollm to generate the answer
-2. **Finetuning process:** 
-3. **Instruct Dataset:** 
+2. **Finetuning process:** (finetuning_smollm135.py, fintuning_demo.ipynb)
+   1. We use well-trained model(ChatGPT) to generate the question-answer pairs for training dataset(train_data.csv, test_data.csv)
+   2. Load the dataset & Embed the prompts
+   3. Train the model(Fuintune) with LoRA (Low-Rank Adaptation Technique)
+3. **Instruct Dataset:**
+   The Instruct Dataset serves as input for the LLM generator model, consisting of question-answer pairs where the question acts as the input prompt and the answer serves as the corresponding label for computing training loss in the LLM model.
 4. **Demonstration:** We take the first example question "Tell me how can I navigate to a specific pose - include replanning aspects in your answer." to generate the answer.
 ---
 
