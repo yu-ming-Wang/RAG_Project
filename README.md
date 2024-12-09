@@ -46,12 +46,13 @@ To run any notebook associated with this assignment, we run it in our local envi
 ## Finetuning Milestone
 ---
 1. **First iteration generates answer:**
-   1. We take the provided 2 User input example questions 1.
-   2. We connect all our rag systems and generate a prompt
-   3.  
+   1. We take the User input to generate embeddings. 
+   2. Similarity search from our qdrant collections. 
+   3. Generate prompt with user input text and retrieved chunk.
+   4. Pass through our LLM Smollm to generate the answer
 2. **Finetuning process:** 
 3. **Instruct Dataset:** 
-4. **Demonstration:**
+4. **Demonstration:** We take the first example question "Tell me how can I navigate to a specific pose - include replanning aspects in your answer." to generate the answer.
 ---
 
 ## Deploying the App Milestone
