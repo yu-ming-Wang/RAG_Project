@@ -4,7 +4,7 @@ Group Member: Yuming Wang, Mingyi Peng
 
 GitHub Name: yu-ming-Wang, Liam M.Y. Peng
 
-HuggingFace: domainame, 
+HuggingFace Name: domainame, Liam Peng
 
 **Date of Submission:** 2024/12/8
 
