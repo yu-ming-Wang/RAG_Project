@@ -55,7 +55,7 @@ To run any notebook associated with this assignment, we run it in our local envi
 4. **Demonstration:** We take the first example question "Tell me how can I navigate to a specific pose - include replanning aspects in your answer." to generate the answer.
 ---
 
-## Deploying the App Milestone
+## Deploying the App Milestone 
 ---
 1. **Ollama setup:** successful!  (ollama_snapshot.png)
 2. **OPENWebui setup:** successful! (OPENWebui_snapshot.png)
