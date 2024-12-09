@@ -45,10 +45,13 @@ To run any notebook associated with this assignment, we run it in our local envi
 
 ## Finetuning Milestone
 ---
-1. **setup:** 
-2. **setup:** 
-3. **:** 
-4. **:**
+1. **First iteration generates answer:**
+   1. We take the provided 2 User input example questions 1.
+   2. We connect all our rag systems and generate a prompt
+   3.  
+2. **Finetuning process:** 
+3. **Instruct Dataset:** 
+4. **Demonstration:**
 ---
 
 ## Deploying the App Milestone
