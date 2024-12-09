@@ -1,1 +1,1 @@
-![Ollama Setup](ETL_Milestone/etl_pipeline_clearml.png)
+![Ollama Setup](etl_pipeline_clearml.png)
