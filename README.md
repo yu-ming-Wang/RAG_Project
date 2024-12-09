@@ -31,7 +31,7 @@ To run any notebook associated with this assignment, we run it in our local envi
 3. **Medium Article Crawler:** We crawl 10 Articles.
 4. **Youtube Video Crawler:** We crawl 15 videos.
 5. **Links:** All source Links.
-6. **Demonstrate:** Download the notebook file to see the demonstrated result.
+6. **Demonstrate:** For Every crawler, we demonstrate one example. Download the notebook file to see the demonstrated result.
 ---
 
 ## Featurization Pipelines Milestone
