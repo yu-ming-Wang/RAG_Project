@@ -21,7 +21,7 @@ To run any notebook associated with this assignment, we run it in our local envi
 3. **Connect with Mongodb:** Successful!
 4. **Connect with qdrant:** Successful!
 5. **Run our API:** Still Adjusting (All our pipelines can run separately in our local host)
-6. **Screenshot:** A screenshot showing all docker containers running.
+6. **Screenshot:** A screenshot showing all docker containers running. (docker_snapshot.png)
 
 ---
 
@@ -30,7 +30,7 @@ To run any notebook associated with this assignment, we run it in our local envi
 2. **GitHub Repo Crawler:** We crawl 4 Repository.   (etl_github.py)
 3. **Medium Article Crawler:** We crawl 10 Articles. (etl_medium.py)
 4. **Youtube Video Crawler:** We crawl 15 videos. (etl_youtube.py)
-5. **Links:** All source Links. (links)
+5. **Links:** All source Links. (links.txt)
 6. **Demonstrate:** For Every crawler, we demonstrate one example. Download the notebook file to see the demonstrated result. (etl_demonstrate.ipynb)
 ---
 
