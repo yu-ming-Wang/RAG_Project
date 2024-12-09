@@ -57,7 +57,7 @@ To run any notebook associated with this assignment, we run it in our local envi
 
 ## Deploying the App Milestone
 ---
-1. **Ollema setup:** 
-2. **Webui setup:** 
+1. **Ollama setup:** successful!  (ollama_snapshot.png)
+2. **OPENWebui setup:** successful! (OPENWebui_snapshot.png)
 3. **:** 
 4. **:**  
