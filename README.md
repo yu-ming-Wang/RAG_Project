@@ -29,10 +29,10 @@ To run any notebook associated with this assignment, we run it in our local envi
    1. Extract data
    2. Transform data(transform all data to the same json format)
    3. Load data (compress data and stored in Mongodb)
-2. **GitHub Repo Crawler:** We crawl 4 Repository.   (etl_github.py)
-3. **Medium Article Crawler:** We crawl 10 Articles. (etl_medium.py)
-4. **Youtube Video Crawler:** We crawl 15 videos. (etl_youtube.py)
-5. **Links:** All source Links. (links.txt)
+2. **GitHub Repo Crawler:** Clone the repository locally and get the content. We crawl 4 Repository.   (etl_github.py)
+3. **Medium Article Crawler:** I use the store cookies method to pass the anticrawler from the Medium website. We crawl 10 Articles. (etl_medium.py)
+4. **Youtube Video Crawler:** Use YouTube API to help me search relevant videos from domain and subdomain, and extract video information. We crawl 15 videos. (etl_youtube.py)
+5. **Links:** Contain all our source Links. (links.txt)
 6. **Demonstrate:** For Every crawler, we demonstrate one example. Download the notebook file to see the demonstrated result. (etl_demonstrate.ipynb)
 ---
 
