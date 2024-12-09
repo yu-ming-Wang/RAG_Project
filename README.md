@@ -10,7 +10,6 @@ HuggingFace Name: domainame, Liam Peng
 
 ## Instructions on Running the Notebook
 To run any notebook associated with this assignment, we run it in our local environment.
-
 ---
 # Project Report
 
@@ -22,10 +21,10 @@ To run any notebook associated with this assignment, we run it in our local envi
 4. **Connect with qdrant:** Successful!
 5. **Run our API:** Still Adjusting (All our pipelines can run separately in our local host)
 6. **Screenshot:** A screenshot showing all docker containers running. (docker_snapshot.png)
-
 ---
 
 ## ETL Milestone
+---
 1. **Pipeline:** 1. Extract data 2. Transform data 3. Load data (stored in Mongodb)
 2. **GitHub Repo Crawler:** We crawl 4 Repository.   (etl_github.py)
 3. **Medium Article Crawler:** We crawl 10 Articles. (etl_medium.py)
@@ -61,3 +60,4 @@ To run any notebook associated with this assignment, we run it in our local envi
 2. **OPENWebui setup:** successful! (OPENWebui_snapshot.png)
 3. **:** 
 4. **:**  
+---
